@@ -14,7 +14,7 @@ async function init() {
     app.use(bodyParser.json());
 
     app.get("/", (req, res) => {
-      res.status(200).json({ message: "Serve is running", data: null });
+      res.status(200).json({ message: "Serve is running aaa", data: null });
     });
     app.use("/api", router);
 
